@@ -1,0 +1,19 @@
+.outerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.innerDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button {
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+}
