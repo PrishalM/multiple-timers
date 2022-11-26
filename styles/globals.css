@@ -2,30 +2,60 @@ html,
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
+  background: #000000;
 }
 
 nav {
-  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 10px 10px #393625;
-  background-color: #393625;
+  background-color: #151517;
   color: #fff0e5;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+}
+
+nav h1 {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 47px;
+  color: #e5e5e5;
+  margin-top: 40px;
+}
+
+nav a {
+  color: #e5e5e5;
+  text-decoration: none;
 }
 
 main {
-  min-height: 500px;
-  padding: 50px;
+  height: 85vh;
 }
 
 footer {
-  background-color: #1c1b12;
-  margin-top: 10px;
-  height: 100px;
+  background: #151517;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 5vh;
+  position: sticky;
+  bottom: 0;
+}
+
+footer p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5a595e;
+}
+
+footer a {
+  color: #5a595e;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,7 +64,7 @@ footer {
   }
   body {
     color: #fff0e5;
-    background-color: #262418;
+    background: #000000;
   }
 }
 

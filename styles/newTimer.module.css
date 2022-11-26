@@ -1,0 +1,98 @@
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: auto;
+  justify-content: space-around;
+}
+
+.labelGroup {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.labelText {
+  font-size: 18px;
+}
+
+.labelInput {
+  background: #1c1c1e;
+  border-radius: 9px;
+  border: 1px solid #1c1c1e;
+  height: 50px;
+  margin-top: 5px;
+}
+
+.buttonContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.cancelButton,
+.startButton {
+  cursor: pointer;
+  padding: 10px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.cancelButton {
+  background: #1c1c1e;
+  border: 1px solid #1c1c1e;
+  color: #5a595e;
+}
+
+.cancelButtonLink {
+  text-decoration: none;
+}
+
+.startButton {
+  background: #0a2a11;
+  border: 1px solid #0a2a11;
+  color: #2fd058;
+}
+
+.timerEndGroup {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.timerEndDiv {
+  background: #1c1c1e;
+  border-radius: 9px;
+  border: 1px solid #1c1c1e;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.timerEndText {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.timerEndSetText {
+  color: #99989f;
+  margin: 0;
+  padding-left: 75px;
+}
+
+.timerEndIcon {
+  height: 12px;
+}

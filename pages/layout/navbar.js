@@ -1,7 +1,11 @@
+import Link from "next/link";
+
 export default function footer() {
   return (
     <nav>
-      <h1>next test - nav</h1>
+      <Link href="/">
+        <h1>Multiple Timers</h1>
+      </Link>
     </nav>
   );
 }

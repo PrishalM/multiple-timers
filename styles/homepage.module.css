@@ -1,19 +1,27 @@
-.outerDiv {
+.main {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
 }
 
-.innerDiv {
+.timerButton {
+  cursor: pointer;
+  padding: 10px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  background: #0a2a11;
+  border: 1px solid #0a2a11;
   display: flex;
+  align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
 
-.button {
-  cursor: pointer;
-  width: 100%;
-  margin-top: 20px;
-  padding: 10px;
+.timerButtonLink {
+  margin-bottom: 20px;
+}
+
+.timerButtonIcon {
+  height: 37px;
 }

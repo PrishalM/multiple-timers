@@ -1,7 +1,11 @@
+import Link from "next/link";
+
 export default function footer() {
   return (
     <footer>
-      <p>next test - footer</p>
+      <p>
+        Multiple Timers - © 2022 <Link href="https://prish.al">Prish.al</Link>
+      </p>
     </footer>
   );
 }
